@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  background-color: #0f0d12;
+}
+body nav {
+  padding: 1rem;
+  position: fixed;
+  box-sizing: border-box;
+  height: 5rem;
+  left: 0;
+  top: 0;
+}
+body nav .title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 100%;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+}
+body nav .title .logo {
+  height: 50%;
+  max-width: 3rem;
+  border: 2px solid #ffa900;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+body nav .title .logo img {
+  height: 100%;
+}
+body main {
+  margin-top: 5rem;
+}
+body main .firstPage {
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+}
+body main .firstPage .content {
+  font-family: "Source Code Pro", monospace;
+  font-size: 2rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body main .firstPage .bottom {
+  font-family: "Source Code Pro", monospace;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body main .projects,
+body main .skills {
+  min-height: 6rem;
+}
+
+.highlight {
+  color: #3aff75;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=main.css.map */
